@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="table">
+      <UniqueIdentifier>{3089523e-9a07-491d-84b7-beee906c14b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="list">
+      <UniqueIdentifier>{a1c11e60-59da-4f1d-a4d6-5a5b34b92f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="array">
+      <UniqueIdentifier>{d2b4f6c9-769a-4ab3-8488-70c1180b4429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{8f4cf236-52ef-4e3a-9f94-fabffda2c938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structure">
+      <UniqueIdentifier>{9ceac343-c2da-459b-99bb-7fb9fe420344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ds_routines">
+      <UniqueIdentifier>{a8c2c987-73e5-48b0-ba76-49c5050e0000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kriterium">
+      <UniqueIdentifier>{a1629189-4cea-45eb-9739-c9fa33b03d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kriterium\KriteriumUJ">
+      <UniqueIdentifier>{bb5f9298-9f6f-434e-bbd6-25e011bf6b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Subory">
+      <UniqueIdentifier>{67612cc3-4456-43c7-b8d1-8586fc8bd3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filter">
+      <UniqueIdentifier>{61e4e4a2-1fa2-4dad-88c0-f75c5c58bd11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{6b08f1a5-4938-4d25-b4f3-49bbec5902e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vector\vector.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="structure.cpp">
+      <Filter>structure</Filter>
+    </ClCompile>
+    <ClCompile Include="ds_routines.cpp">
+      <Filter>ds_routines</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="table\sequence_table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\sorted_sequence_table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\unsorted_sequence_table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="list\array_list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="list\linked_list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="list\list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="array\array.h">
+      <Filter>array</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="structure_iterator.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_routines.h">
+      <Filter>ds_routines</Filter>
+    </ClInclude>
+    <ClInclude Include="UzemnaJednotka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TypUJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kriterium.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="Obec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJCelkovaVymera.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJNazov.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetObyv.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetPoprodObyv.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetPredprodObyv.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetProdObyv.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPrislusnost.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJTyp.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJZastavanaPlocha.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJZastavanost.h">
+      <Filter>kriterium\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_structure_types.h">
+      <Filter>ds_routines</Filter>
+    </ClInclude>
+    <ClInclude Include="heap_monitor.h">
+      <Filter>ds_routines</Filter>
+    </ClInclude>
+    <ClInclude Include="Nacitanie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterHodnota.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterInterval.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUJNazov.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="UzemneJednotky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUJTyp.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUJPrislusnost.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUJPocetObyv.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUJZastavanost.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Funkcionalita.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1 Obce SR.csv">
+      <Filter>Subory</Filter>
+    </None>
+    <None Include="3 Zoznam zoskupení bytov∞ch jednotiek SR.csv">
+      <Filter>Subory</Filter>
+    </None>
+    <None Include="4 Bytové jednotky SR.csv">
+      <Filter>Subory</Filter>
+    </None>
+    <None Include="2 Uzemne clenenie SR.csv">
+      <Filter>Subory</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
